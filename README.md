@@ -71,3 +71,9 @@ Mongoose methods:
 
 
 salt a random value added to password before hashing
+
+JWT -> Json web token it is a signed token the server gives after login
+its structure 
+1. Header -> Contains the signing algorithm and token type.
+2. Payload -> Contains claims or information about the user.
+3. Signature -> Used to verify that the token was signed by a trusted party and hasn't been modified.
